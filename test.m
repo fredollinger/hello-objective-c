@@ -1,6 +1,11 @@
 #import <Foundation/Foundation.h>
 
+
+
 int main(int argc, char * argv[]){
-    NSLog(@"Hello world!\n");
-    return 0;
+  @autoreleasepool{
+    NSDate *now = [NSDate date];
+    NSLog(@"Date: [%@]\n", now);
+  }
+  return 0;
 }
