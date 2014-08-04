@@ -1,9 +1,11 @@
 #import <Foundation/Foundation.h>
-#import "Room.h"
+#import "MapFactory.h"
 
 int main(int argc, char * argv[]){
   @autoreleasepool{
-    Room *livingRoom = [[Room alloc] init];
+    MapFactory *factory = [[MapFactory alloc] init];
+    Map *map = [factory MakeMap:1];
+    //Room *livingRoom = [[Room alloc] init];
     //NSDate *now = [NSDate date];
     //NSLog(@"Date: [%@]\n", now);
   }
