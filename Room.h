@@ -1,12 +1,12 @@
 #include "MapSite.h"
-#include "Wall.h"
+#include "Side.h"
 
 @interface Room : MapSite {
-    NSMutableArray *walls;
+    NSMutableArray *sides;
 }
 
-@property (strong) NSMutableArray *walls;
+@property (strong) NSMutableArray *sides;
 - (MapSite*) GetSide:(int)side;
-- (void)SetSide:(Wall*)wall;
+- (void)SetSide:(Side*)side;
 
 @end

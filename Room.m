@@ -2,12 +2,12 @@
 
 @implementation Room
 
-@synthesize walls;
+@synthesize sides;
 
 - (MapSite*)GetSide:(int)side{
 }
 
-- (void)SetSide:(Wall*)wall{
-    [walls addObject:wall];
+- (void)SetSide:(Side*)side{
+    [sides addObject:side];
 }
 @end

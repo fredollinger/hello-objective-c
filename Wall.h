@@ -1,6 +1,11 @@
-#include "MapSite.h"
+#ifndef __WALL_H__
+#define __WALL_H__
 
-@interface Wall : MapSite {
+#include "Side.h"
+
+@interface Wall : Side {
 }
 
 @end
+
+#endif // __WALL_H__

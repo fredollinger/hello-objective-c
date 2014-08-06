@@ -1,6 +1,11 @@
-#include "MapSite.h"
+#ifndef __DOOR_H__
+#define __DOOR_H__
 
-@interface Door : MapSite {
+#include "Side.h"
+
+@interface Door : Side {
 }
 
 @end
+
+#endif // __DOOR_H__
