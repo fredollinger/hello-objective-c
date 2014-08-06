@@ -12,6 +12,9 @@ int main(int argc, char * argv[]){
     Wall *wall = [factory MakeWall];
     [room SetSide:wall];
 
+    Door *door = [factory MakeDoor];
+    [room SetSide:door];
+
   } // @autoreleasepool
   return 0;
 }

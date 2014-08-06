@@ -4,17 +4,26 @@
 
 - (Map*) MakeMap{
     NSLog(@"Making a map\n");
-    return [Map map];
+    Map *map = [[Map alloc] init];
+    return map;
 } 
 
 - (Room*) MakeRoom{
     NSLog(@"Making a room\n");
-    return [Room room];
+    Room *room = [[Room alloc] init];
+    return room;
 } 
 
 - (Wall*) MakeWall{
     NSLog(@"Making a wall\n");
-    return [Wall wall];
+    Wall *wall = [[Wall alloc] init];
+    return wall;
+} 
+
+- (Door*) MakeDoor{
+    NSLog(@"Making a door\n");
+    Door *door = [[Door alloc] init];
+    return door;
 } 
 
 
