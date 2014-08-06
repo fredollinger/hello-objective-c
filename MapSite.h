@@ -7,7 +7,7 @@
     int id;
 }
 
--(void) Enter:(int)x;
+-(void) Enter;
 
 @end
-#endif __MAP_SITE_H__
+#endif // __MAP_SITE_H__

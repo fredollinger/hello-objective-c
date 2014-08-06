@@ -2,7 +2,7 @@
 
 @implementation MapSite
 
-- (void)Enter:(int)x{
+- (void)Enter{
 }
 
 @end

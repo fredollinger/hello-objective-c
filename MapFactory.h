@@ -8,5 +8,6 @@
 
 - (Map*) MakeMap;
 - (Room*) MakeRoom;
+- (Wall*) MakeWall;
 
 @end

@@ -8,5 +8,6 @@
 }
 
 - (void)SetSide:(Wall*)wall{
+    [walls addObject:wall];
 }
 @end

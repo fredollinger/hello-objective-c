@@ -12,4 +12,11 @@
     return [Room room];
 } 
 
+- (Wall*) MakeWall{
+    NSLog(@"Making a wall\n");
+    return [Wall wall];
+} 
+
+
+
 @end
