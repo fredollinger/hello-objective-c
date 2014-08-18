@@ -1,5 +1,5 @@
 #import "Wall.h"
 
-@implementation Door {
+@implementation Door: MapSite {
 }
 @end

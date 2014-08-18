@@ -3,6 +3,10 @@
 
 #import <Foundation/Foundation.h>
 
+enum Directions {
+    North, South,
+    East,  West};
+
 @interface MapSite : NSObject{
     int id;
 }

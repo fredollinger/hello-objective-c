@@ -4,6 +4,10 @@
 
 @synthesize sides;
 
++ (void)initialize {
+	NSLog(@"Init room\n");
+}
+
 - (MapSite*)GetSide:(int)side{
 }
 
