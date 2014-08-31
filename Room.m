@@ -6,15 +6,18 @@
 @synthesize dict;
 
 + (void)initialize {
-    NSLog(@"Init room\n");
 }
 
-- (MapSite*)GetSide:(int)side{
+- (MapSite*)GetSide:(int)direction{
+    Side *side = NULL;
+    if ([dict objectForKey:direction] == nil)
+        side = [dict objectForKey:direction];
+    return side;
 }
 
 - (void)SetSide:(Side*)side : (int)direction{
-    NSNumber *anInt = [NSNumber numberWithInt:2147483647];
+    NSNumber *nsdir = [NSNumber numberWithInt:direction];
     [sides addObject:side];
-    [dict setObject:side forKey:@"Audi TT"];
+    [dict setObject:side forKey:nsdir];
 }
 @end

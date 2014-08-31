@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
 #import "MapFactory.h"
+#import "MapSite.h"
 
 int main(int argc, char * argv[]){
   @autoreleasepool{
@@ -10,10 +11,12 @@ int main(int argc, char * argv[]){
     [map AddRoom:room];
 
     Wall *wall = [factory MakeWall];
-    [room SetSide:wall];
+    [room SetSide:wall:North];
 
-    Door *door = [factory MakeDoor];
-    [room SetSide:door];
+    [room GetSide:North];
+
+//    Door *door = [factory MakeDoor];
+    //[room SetSide:door];
 
   } // @autoreleasepool
   return 0;
