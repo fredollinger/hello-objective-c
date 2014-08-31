@@ -1,4 +1,5 @@
 #import <Foundation/Foundation.h>
+#import "MapSite.h"
 #import "Door.h"
 #import "Map.h"
 #import "Room.h"

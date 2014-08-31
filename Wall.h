@@ -4,7 +4,10 @@
 #include "Side.h"
 
 @interface Wall : Side {
+    NSString *desc;
 }
+
+@property (strong) NSString *desc;
 
 @end
 

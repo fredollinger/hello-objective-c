@@ -5,7 +5,7 @@
 @synthesize rooms;
 
 - (void) AddRoom:(Room*)r{
-    NSLog(@"Adding a room\n");
+    //NSLog(@"Adding a room\n");
     [rooms addObject:r];
 }
 
